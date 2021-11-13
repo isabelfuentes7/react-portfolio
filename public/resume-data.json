@@ -1,0 +1,118 @@
+{
+  "main": {
+    "name":"Hi, I AM ",
+    "description":"  Isabel Fuentes",
+    "image":"i1.jpg",
+    "bio":" Hi! My name is Isabel Fuentes. I am from MA. I am  student at the University of Massachuettes Lowell pursuing my BS in Electronics Engineering & Columbia University Full Stack Web Dev Course.",
+    "email": "ortizisabel0716@gmail.com",
+    "phone": "+1 (777) 111-4444",
+    "github":"https://github.com/isabelfuentes7",
+    "project":"https://github.com/isabelfuentes7",
+   
+    "website": "",
+    "resumedownload":"IsabelResume.pdf",
+    "social":[
+ 
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/bareisabel?lang=en",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/isabel-fuentes-swe/",
+        "className":"fa fa-linkedin"
+      },
+   
+      {
+        "name":"github",
+        "url":"https://github.com/isabelfuentes7",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    
+    "work":[
+      {
+        "company":" Medtronic",
+        "title":"Engineering Test Technician II",
+        "years":"Aug 2021-Present",
+        "description":""
+      },
+      {
+        "company":"MACOM",
+        "title":"R & D Engineering Technician",
+        "years":"Mar 2019 – July 2021",
+        "description":""
+      }
+    ]} ,
+     "resume1":{
+    "skills":[
+      {
+        "name":"Html5"
+      },
+      {
+        "name":"CSS"
+      },
+      {
+        "name":"Javascript"
+      },
+      {
+        "name":"React.js"
+        
+      },
+      {
+        "name":"C"
+      },
+      {
+        "name":"Python"
+      },
+      {
+        "name":"MySql"
+        
+      },
+      {
+        "name":"MongoDB"
+        
+      },
+      {
+        "name":"Git"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Password Generator",
+        "image":"p1.png",
+        "url":"https://isabelfuentes7.github.io/Password-Generator/"
+      },
+      {
+        "title":"Code Quiz",
+        "image":"p2.png",
+        "url":"https://isabelfuentes7.github.io/Code-Quiz/"
+      },
+      {
+        "title":"Weather App",
+        "image":"p3.png",
+        "url":"https://isabelfuentes7.github.io/WeatherApp/"
+      },
+      {
+        "title":"Axxess-the-Vaxx",
+        "image":"p4.png",
+        "url":"https://isabelfuentes7.github.io/Axxess-the-Vaxx/"
+      },
+      {
+        "title":"Work Day Scheduler",
+        "image":"p5.png",
+        "url":"https://isabelfuentes7.github.io/Work-Day-Scheduler/"
+      },
+      {
+        "title":"Work Day Scheduler",
+        "image":"p5.png",
+        "url":"https://isabelfuentes7.github.io/Work-Day-Scheduler/"
+      }
+    ]
+  }
+}
