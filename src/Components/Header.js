@@ -29,7 +29,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
                
           <li >
-            <a  href={resumeDownload}> Resume</a>  
+            <a  href={resumeDownload} target = "_blank"> Resume</a>  
           </li>  
          </ul>
       </nav>
