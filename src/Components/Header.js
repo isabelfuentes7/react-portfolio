@@ -13,7 +13,9 @@ class Header extends Component {
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
     }
-
+   function onResumeClick() {
+      window.open(resumeDownload);
+    }
     return (
       <header id="home" className='background-image' style ={ { backgroundImage: "url("+bg+")" } }>
       <nav id="nav-wrap">
@@ -29,7 +31,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
                
           <li >
-            <a  href={resumeDownload} target = {"_blank"}> Resume</a>  
+            <a  onClick={onResumeClick} > Resume</a>  
           </li>  
          </ul>
       </nav>
