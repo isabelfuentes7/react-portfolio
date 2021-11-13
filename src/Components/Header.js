@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import styles from '../assets/customCss.module.css'; 
+import styles from '../assets/customCss.module.css';
+import resume from '../assets/resume.pdf' 
 var bg=require('../assets/p4.jpg')
 class Header extends Component {
   render() {
@@ -31,7 +32,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
                
           <li >
-            <a  onClick={onResumeClick} > Resume</a>  
+            <a  href={resume} rel="noreferrer"  target="_blank"> Resume</a>  
           </li>  
          </ul>
       </nav>
